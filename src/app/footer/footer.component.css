@@ -1,0 +1,9 @@
+span {
+    background-color: cadetblue;
+    position: fixed;
+    bottom: 0;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}

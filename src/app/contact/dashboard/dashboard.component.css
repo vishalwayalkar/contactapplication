@@ -1,0 +1,18 @@
+h3 {
+    color: chocolate;
+    text-align: center;
+    /* margin-top: 0; */
+    padding: 20px;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+    /* display: inline-block; */
+}
+
+.pg {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}

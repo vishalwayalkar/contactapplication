@@ -1,0 +1,50 @@
+    fieldset {
+        width: 80%;
+        border: 1px solid;
+        margin: auto;
+        margin-top: 100px;
+        padding: 60px;
+        /* text-align: center; */
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    div {
+        /* margin: auto; */
+        position: relative;
+        left: 400px;
+    }
+    
+    @media screen and (max-width:1024px) {
+        div {
+            left: 200px;
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        div {
+            left: 70px;
+        }
+    }
+    
+    @media screen and (max-width:511px) {
+        div {
+            left: 5px;
+        }
+        .bt>button {
+            margin-left: 0px;
+            margin: 5px;
+            display: block;
+            width: 80%;
+        }
+        .ml-5 {
+            margin-left: 0px;
+        }
+    }
+    
+    @media screen and (max-width:376px) {
+        fieldset {
+            margin-top: 60px;
+            padding: 25px;
+        }
+    }
